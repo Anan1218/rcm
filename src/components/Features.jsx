@@ -36,8 +36,8 @@ const Features = () => {
     },
     {
       icon: FaMoneyBillWave,
-      title: 'Payment Posting & ERA',
-      description: 'Systematic posting of insurance and patient payments with automated ERA processing and bank reconciliation.',
+      title: 'Payment Posting & Collections',
+      description: 'Systematic posting of insurance and patient payments with automated ERA processing and patient collection services.',
       gradient: 'from-orange-500 to-red-500'
     },
     {
@@ -53,34 +53,10 @@ const Features = () => {
       gradient: 'from-indigo-500 to-purple-500'
     },
     {
-      icon: FaPhoneAlt,
-      title: 'Patient Collections',
-      description: 'Professional patient communication for outstanding balances with automated reminders and flexible payment options.',
-      gradient: 'from-cyan-500 to-blue-500'
-    },
-    {
-      icon: FaCogs,
-      title: 'Workflow Automation',
-      description: 'Automated revenue cycle workflows to reduce manual tasks, improve efficiency, and minimize human errors.',
-      gradient: 'from-green-500 to-teal-500'
-    },
-    {
       icon: FaCalendarCheck,
       title: 'Prior Authorization',
       description: 'Streamlined prior authorization and referral management for all healthcare services to reduce claim delays.',
       gradient: 'from-yellow-500 to-orange-500'
-    },
-    {
-      icon: FaHeadset,
-      title: 'Account Management',
-      description: 'Expert RCM specialists providing ongoing support, training, and revenue optimization for your organization.',
-      gradient: 'from-pink-500 to-rose-500'
-    },
-    {
-      icon: FaCreditCard,
-      title: 'Payment Solutions',
-      description: 'Comprehensive payment solutions including online payments, payment plans, and integrated card processing.',
-      gradient: 'from-emerald-500 to-green-500'
     },
     {
       icon: FaShieldAlt,
