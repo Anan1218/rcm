@@ -18,7 +18,7 @@ const Features = () => {
   const features = [
     {
       icon: FaClipboardCheck,
-      title: 'Insurance Eligibility & Benefits Verification',
+      title: 'Eligibility & Benefits Verification',
       description: 'Real-time verification of patient insurance coverage and benefits before appointments across all healthcare specialties.',
       gradient: 'from-blue-500 to-cyan-500'
     },
@@ -36,7 +36,7 @@ const Features = () => {
     },
     {
       icon: FaMoneyBillWave,
-      title: 'Payment Posting & Reconciliation',
+      title: 'Payment Posting & ERA',
       description: 'Systematic posting of insurance and patient payments with automated ERA processing and bank reconciliation.',
       gradient: 'from-orange-500 to-red-500'
     },
@@ -54,37 +54,37 @@ const Features = () => {
     },
     {
       icon: FaPhoneAlt,
-      title: 'Patient Financial Services',
+      title: 'Patient Collections',
       description: 'Professional patient communication for outstanding balances with automated reminders and flexible payment options.',
       gradient: 'from-cyan-500 to-blue-500'
     },
     {
       icon: FaCogs,
-      title: 'RCM Workflow Automation',
+      title: 'Workflow Automation',
       description: 'Automated revenue cycle workflows to reduce manual tasks, improve efficiency, and minimize human errors.',
       gradient: 'from-green-500 to-teal-500'
     },
     {
       icon: FaCalendarCheck,
-      title: 'Prior Authorization & Referrals',
+      title: 'Prior Authorization',
       description: 'Streamlined prior authorization and referral management for all healthcare services to reduce claim delays.',
       gradient: 'from-yellow-500 to-orange-500'
     },
     {
       icon: FaHeadset,
-      title: 'Dedicated Account Management',
+      title: 'Account Management',
       description: 'Expert RCM specialists providing ongoing support, training, and revenue optimization for your organization.',
       gradient: 'from-pink-500 to-rose-500'
     },
     {
       icon: FaCreditCard,
-      title: 'Patient Payment Platform',
+      title: 'Payment Solutions',
       description: 'Comprehensive payment solutions including online payments, payment plans, and integrated card processing.',
       gradient: 'from-emerald-500 to-green-500'
     },
     {
       icon: FaShieldAlt,
-      title: 'Healthcare Compliance & Security',
+      title: 'Compliance & Security',
       description: 'HIPAA-compliant RCM processes with enterprise-grade security, audit trails, and regulatory compliance.',
       gradient: 'from-violet-500 to-purple-500'
     }
@@ -126,7 +126,7 @@ const Features = () => {
                   <feature.icon className="text-white text-2xl" />
                 </div>
                 
-                <h3 className="text-xl font-semibold text-white mb-3">
+                <h3 className="text-lg font-semibold text-white mb-3 leading-tight">
                   {feature.title}
                 </h3>
                 
