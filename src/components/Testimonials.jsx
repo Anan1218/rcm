@@ -8,37 +8,37 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Dr. Sarah Johnson',
-      title: 'Practice Owner',
-      practice: 'Johnson Family Dentistry',
-      content: 'Our RCM partner has transformed our billing operations. We reduced our days in A/R from over 140 days to 70 days, and our first-pass clean claim rate improved to 95%. The denial management alone has saved us thousands.',
+      name: 'Sarah Martinez',
+      title: 'CFO',
+      practice: 'Regional Medical Center',
+      content: 'Our RCM partner transformed our multi-specialty billing operations. We reduced days in A/R from 140 to 65 days across all service lines, and our first-pass clean claim rate improved to 96%. The impact on cash flow has been remarkable.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face'
     },
     {
       id: 2,
-      name: 'Dr. Michael Chen',
-      title: 'Dental Director',
-      practice: 'Bright Smiles Dental Group',
-      content: 'The eligibility verification and prior authorization services have eliminated surprise denials. Our staff can now focus on patient care instead of chasing insurance claims. Revenue increased 30% in the first year.',
+      name: 'Michael Thompson',
+      title: 'Administrator',
+      practice: 'Orthopedic Specialists Group',
+      content: 'The prior authorization and eligibility verification services have eliminated surprise denials across our surgical cases. Our providers can focus on patient care while the RCM team handles the complex billing requirements. Revenue increased 35% in year one.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&h=150&fit=crop&crop=face'
     },
     {
       id: 3,
       name: 'Dr. Emily Rodriguez',
-      title: 'Orthodontist',
-      practice: 'Rodriguez Orthodontics',
-      content: 'Medical billing for dental has been a game-changer for our practice. We never realized how much revenue we were leaving on the table. The RCM team identified procedures covered by medical insurance, increasing our collections significantly.',
+      title: 'Medical Director',
+      practice: 'Cardiology Associates',
+      content: 'Working with this RCM team has been transformative for our cardiology practice. They identified significant revenue opportunities in our procedure coding and payer contracts. Our collections improved by 40% while reducing our administrative burden.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1594824947018-514fe02e1def?w=150&h=150&fit=crop&crop=face'
     },
     {
       id: 4,
-      name: 'Dr. Robert Kim',
+      name: 'James Wilson',
       title: 'Practice Manager',
-      practice: 'Advanced Dental Care',
-      content: 'The automated payment posting and receivables management has streamlined our entire billing workflow. We receive detailed reports on every aspect of our revenue cycle, giving us complete visibility into our financial performance.',
+      practice: 'Family Medicine Network',
+      content: 'The automated payment posting and denial management has revolutionized our multi-location primary care operations. We now have real-time visibility into our revenue cycle performance across 12 locations with detailed analytics and reporting.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&h=150&fit=crop&crop=face'
     }
@@ -81,7 +81,7 @@ const Testimonials = () => {
             <span className="text-accent-green"> Stories</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            See how dental practices are transforming their revenue cycle with our comprehensive RCM solutions.
+            See how healthcare organizations across all specialties are transforming their revenue cycle with our comprehensive RCM solutions.
           </p>
         </motion.div>
 
@@ -171,7 +171,7 @@ const Testimonials = () => {
               Ready for Your RCM Success Story?
             </h3>
             <p className="text-gray-300 mb-6">
-              Join hundreds of practices maximizing revenue with our proven RCM solutions.
+              Join hundreds of healthcare organizations maximizing revenue with our proven RCM solutions.
             </p>
             <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
               Start Your RCM Journey

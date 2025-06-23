@@ -13,19 +13,19 @@ import {
 const Footer = () => {
   const footerLinks = {
     'RCM Services': [
-      'Insurance Billing',
+      'Claims Processing',
       'Denial Management',
       'Payment Posting',
-      'Medical Billing',
+      'Multi-Specialty Billing',
       'Prior Authorization',
       'Eligibility Verification'
     ],
-    'Solutions': [
-      'Small Practices',
-      'Large Practices',
-      'Multi-Location Groups',
-      'Dental Service Organizations',
+    'Healthcare Solutions': [
+      'Primary Care',
       'Specialty Practices',
+      'Surgery Centers',
+      'Multi-Location Groups',
+      'Health Systems',
       'Enterprise Solutions'
     ],
     'Resources': [
@@ -33,7 +33,7 @@ const Footer = () => {
       'Case Studies',
       'Webinars',
       'White Papers',
-      'RCM Calculator',
+      'ROI Calculator',
       'Industry Reports'
     ],
     'Support': [
@@ -78,7 +78,7 @@ const Footer = () => {
                 CareRevenue
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Complete revenue cycle management solutions for dental practices. Maximize collections, reduce denials, and optimize your practice profitability with our expert RCM services.
+                Complete revenue cycle management solutions for healthcare organizations. Maximize collections, reduce denials, and optimize your organization's profitability with our expert RCM services.
               </p>
               
               <div className="space-y-3 mb-6">

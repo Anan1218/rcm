@@ -18,17 +18,17 @@ const Header = () => {
     {
       label: 'RCM Services',
       hasDropdown: true,
-      items: ['Insurance Billing', 'Denial Management', 'Payment Posting', 'Medical Billing']
+      items: ['Claims Processing', 'Denial Management', 'Payment Posting', 'Multi-Specialty Billing']
     },
     {
-      label: 'Solutions',
+      label: 'Healthcare Solutions',
       hasDropdown: true,
-      items: ['Small Practices', 'Large Practices', 'Multi-Location DSOs']
+      items: ['Primary Care', 'Specialty Practices', 'Surgery Centers', 'Multi-Location Groups']
     },
     {
       label: 'Resources',
       hasDropdown: true,
-      items: ['RCM Blog', 'Case Studies', 'Webinars', 'RCM Support']
+      items: ['RCM Blog', 'Case Studies', 'Webinars', 'Healthcare Insights']
     },
     { label: 'Pricing', hasDropdown: false },
     { label: 'About', hasDropdown: false }

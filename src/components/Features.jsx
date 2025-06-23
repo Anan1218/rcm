@@ -19,73 +19,73 @@ const Features = () => {
     {
       icon: FaClipboardCheck,
       title: 'Insurance Eligibility & Benefits Verification',
-      description: 'Real-time verification of patient insurance coverage and benefits before appointments to provide accurate treatment estimates.',
+      description: 'Real-time verification of patient insurance coverage and benefits before appointments across all healthcare specialties.',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
       icon: FaFileInvoiceDollar,
-      title: 'Insurance Claims Billing',
-      description: 'Daily electronic or paper claim submission with advanced scrubbing technology to minimize rejections and maximize reimbursements.',
+      title: 'Medical Claims Processing',
+      description: 'Comprehensive claims submission for all healthcare verticals with advanced scrubbing technology to minimize rejections.',
       gradient: 'from-accent-green to-emerald-500'
     },
     {
       icon: FaSearch,
-      title: 'Receivables & Denial Management',
-      description: 'Proactive follow-ups every 30 days to track claim status, resolve denials, and accelerate payment collection.',
+      title: 'Denial Management & Appeals',
+      description: 'Proactive follow-ups and appeals management to track claim status, resolve denials, and maximize reimbursements.',
       gradient: 'from-purple-500 to-pink-500'
     },
     {
       icon: FaMoneyBillWave,
-      title: 'Payment Posting',
-      description: 'Systematic and accurate posting of insurance payments with automated ERA processing and reconciliation.',
+      title: 'Payment Posting & Reconciliation',
+      description: 'Systematic posting of insurance and patient payments with automated ERA processing and bank reconciliation.',
       gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: FaUserMd,
-      title: 'Medical Billing for Dental',
-      description: 'Maximize revenue with medical insurance reimbursements for covered dental procedures and treatments.',
+      title: 'Multi-Specialty Billing',
+      description: 'Expert billing services for all healthcare specialties including primary care, specialty practices, and ancillary services.',
       gradient: 'from-teal-500 to-blue-500'
     },
     {
       icon: FaChartLine,
-      title: 'RCM Analytics & Reporting',
-      description: 'Comprehensive reporting on A/R aging, denial trends, collection rates, and key performance indicators.',
+      title: 'Revenue Cycle Analytics',
+      description: 'Comprehensive reporting on KPIs, A/R aging, denial trends, and collection rates across all service lines.',
       gradient: 'from-indigo-500 to-purple-500'
     },
     {
       icon: FaPhoneAlt,
-      title: 'Patient Collections',
-      description: 'Professional patient communication for outstanding balances with automated reminders and payment plans.',
+      title: 'Patient Financial Services',
+      description: 'Professional patient communication for outstanding balances with automated reminders and flexible payment options.',
       gradient: 'from-cyan-500 to-blue-500'
     },
     {
       icon: FaCogs,
-      title: 'Workflow Automation',
-      description: 'Automated RCM workflows to reduce manual tasks, improve efficiency, and minimize human errors.',
+      title: 'RCM Workflow Automation',
+      description: 'Automated revenue cycle workflows to reduce manual tasks, improve efficiency, and minimize human errors.',
       gradient: 'from-green-500 to-teal-500'
     },
     {
       icon: FaCalendarCheck,
-      title: 'Prior Authorization Management',
-      description: 'Streamlined prior authorization process to ensure treatment approvals and reduce claim delays.',
+      title: 'Prior Authorization & Referrals',
+      description: 'Streamlined prior authorization and referral management for all healthcare services to reduce claim delays.',
       gradient: 'from-yellow-500 to-orange-500'
     },
     {
       icon: FaHeadset,
-      title: 'Dedicated RCM Support',
-      description: 'Expert RCM specialists providing ongoing support, training, and optimization recommendations.',
+      title: 'Dedicated Account Management',
+      description: 'Expert RCM specialists providing ongoing support, training, and revenue optimization for your organization.',
       gradient: 'from-pink-500 to-rose-500'
     },
     {
       icon: FaCreditCard,
-      title: 'Patient Payment Solutions',
-      description: 'Multiple payment options including online payments, payment plans, and integrated card processing.',
+      title: 'Patient Payment Platform',
+      description: 'Comprehensive payment solutions including online payments, payment plans, and integrated card processing.',
       gradient: 'from-emerald-500 to-green-500'
     },
     {
       icon: FaShieldAlt,
-      title: 'Compliance & Security',
-      description: 'HIPAA-compliant RCM processes with secure data handling and audit trails for complete peace of mind.',
+      title: 'Healthcare Compliance & Security',
+      description: 'HIPAA-compliant RCM processes with enterprise-grade security, audit trails, and regulatory compliance.',
       gradient: 'from-violet-500 to-purple-500'
     }
   ];
@@ -107,7 +107,7 @@ const Features = () => {
             <span className="text-accent-green"> End-to-End Solutions</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            From eligibility verification to payment posting, our comprehensive RCM services optimize every aspect of your revenue cycle.
+            From eligibility verification to payment posting, our comprehensive RCM services optimize every aspect of your healthcare revenue cycle.
           </p>
         </motion.div>
 
@@ -150,7 +150,7 @@ const Features = () => {
               Ready to Optimize Your Revenue Cycle?
             </h3>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
-              Partner with our RCM experts to maximize collections, reduce denials, and improve your practice profitability.
+              Partner with our RCM experts to maximize collections, reduce denials, and improve your healthcare organization's profitability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">

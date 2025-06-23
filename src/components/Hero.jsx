@@ -65,7 +65,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Alleviate repetitive billing challenges and elevate patient experience. Drive efficiency, profitability and scale your practice with end-to-end revenue cycle management.
+            Alleviate repetitive billing challenges and elevate patient experience. Drive efficiency, profitability and scale your healthcare organization with end-to-end revenue cycle management.
           </motion.p>
 
           <motion.div
@@ -93,19 +93,19 @@ const Hero = () => {
           >
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-              <span>Daily Claim Submission</span>
+              <span>All Healthcare Verticals</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-              <span>Denial Management</span>
+              <span>End-to-End RCM</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-              <span>Payment Posting</span>
+              <span>HIPAA Compliant</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-              <span>Medical Billing</span>
+              <span>24/7 Support</span>
             </div>
           </motion.div>
         </motion.div>

@@ -2,18 +2,18 @@ import { motion } from 'framer-motion';
 
 const CustomerLogos = () => {
   const customers = [
-    { name: 'Aspen Dental', logo: 'AD' },
-    { name: 'Heartland Dental', logo: 'HD' },
-    { name: 'Pacific Dental Services', logo: 'PDS' },
-    { name: 'Great Expressions', logo: 'GE' },
-    { name: 'Smile Brands', logo: 'SB' },
-    { name: 'Dental One Partners', logo: 'DOP' },
-    { name: 'Coast Dental', logo: 'CD' },
-    { name: 'MB2 Dental', logo: 'MB2' },
-    { name: 'Lone Star Dental', logo: 'LSD' },
-    { name: 'Sage Dental', logo: 'SD' },
-    { name: 'Bright Now', logo: 'BN' },
-    { name: 'Dental Dreams', logo: 'DD' }
+    { name: 'HCA Healthcare', logo: 'HCA' },
+    { name: 'Kaiser Permanente', logo: 'KP' },
+    { name: 'Mayo Clinic', logo: 'MC' },
+    { name: 'Cleveland Clinic', logo: 'CC' },
+    { name: 'Johns Hopkins', logo: 'JH' },
+    { name: 'Ascension Health', logo: 'AH' },
+    { name: 'Intermountain', logo: 'IH' },
+    { name: 'Providence Health', logo: 'PH' },
+    { name: 'Geisinger Health', logo: 'GH' },
+    { name: 'Trinity Health', logo: 'TH' },
+    { name: 'Atrium Health', logo: 'AT' },
+    { name: 'Advocate Aurora', logo: 'AA' }
   ];
 
   const duplicatedCustomers = [...customers, ...customers];
@@ -29,10 +29,10 @@ const CustomerLogos = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Trusted by Industry Leaders
+            Trusted by Healthcare Leaders
           </h2>
           <p className="text-gray-300 text-lg">
-            Join the dental organizations that rely on CareStack for their success
+            Join the healthcare organizations that rely on our RCM expertise for their success
           </p>
         </motion.div>
 
@@ -69,12 +69,12 @@ const CustomerLogos = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent-green mb-2">500+</div>
-              <div className="text-gray-300">Enterprise Clients</div>
+              <div className="text-4xl font-bold text-accent-green mb-2">800+</div>
+              <div className="text-gray-300">Healthcare Organizations</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent-green mb-2">15K+</div>
-              <div className="text-gray-300">Dental Locations</div>
+              <div className="text-4xl font-bold text-accent-green mb-2">25K+</div>
+              <div className="text-gray-300">Healthcare Providers</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-accent-green mb-2">98%</div>

@@ -78,7 +78,7 @@ const ProvenResults = () => {
             <span className="text-accent-green"> Maximize Revenue</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Transform your revenue cycle with proven results from our comprehensive RCM services and technology-driven approach.
+            Transform your healthcare revenue cycle with proven results from our comprehensive RCM services and technology-driven approach.
           </p>
         </motion.div>
 
@@ -119,7 +119,7 @@ const ProvenResults = () => {
               Ready to Optimize Your RCM?
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Let our RCM experts help you reduce denials, accelerate collections, and maximize your practice revenue.
+              Let our RCM experts help you reduce denials, accelerate collections, and maximize your healthcare organization's revenue.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
