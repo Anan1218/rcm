@@ -37,27 +37,27 @@ const CountUpAnimation = ({ end, duration = 2000, suffix = '', prefix = '' }) =>
 const ProvenResults = () => {
   const stats = [
     {
+      number: 10,
+      suffix: '+%',
+      label: 'Increase in Cash Flow',
+      description: 'Average improvement in cash flow'
+    },
+    {
       number: 95,
-      suffix: '%',
-      label: 'First-Pass Clean Rate',
-      description: 'Claims processed successfully'
+      suffix: '+%',
+      label: 'Net Collection Rate',
+      description: 'Optimal collection performance'
     },
     {
-      number: 50,
-      suffix: '%',
-      label: 'Faster Collections',
-      description: 'Reduced days in A/R'
+      number: 37,
+      prefix: '< ',
+      label: 'Days in A/R',
+      description: 'Reduced accounts receivable'
     },
     {
-      number: 30,
-      suffix: '%',
-      label: 'Revenue Increase',
-      description: 'Through optimized RCM'
-    },
-    {
-      number: 140,
-      label: 'Days Reduced',
-      description: 'Average improvement in DSO'
+      number: 24,
+      label: 'Hour Claim Turnaround',
+      description: 'Fast claim processing time'
     }
   ];
 
@@ -94,7 +94,7 @@ const ProvenResults = () => {
             >
               <div className="bg-gradient-to-br from-primary-700 to-primary-900 rounded-2xl p-8 h-full border border-primary-600 hover:border-accent-green/50 transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-5xl sm:text-6xl font-bold text-accent-green mb-4">
-                  <CountUpAnimation end={stat.number} suffix={stat.suffix} />
+                  <CountUpAnimation end={stat.number} suffix={stat.suffix} prefix={stat.prefix} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {stat.label}
