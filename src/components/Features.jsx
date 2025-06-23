@@ -79,11 +79,11 @@ const Features = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-            Complete RCM Services
+            Complete Revenue Cycle Services
             <span className="text-accent-green"> End-to-End Solutions</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            From eligibility verification to payment posting, our comprehensive RCM services optimize every aspect of your healthcare revenue cycle.
+            From eligibility verification to payment posting, our comprehensive services optimize every aspect of your healthcare revenue cycle.
           </p>
         </motion.div>
 
@@ -126,14 +126,14 @@ const Features = () => {
               Ready to Optimize Your Revenue Cycle?
             </h3>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
-              Partner with our RCM experts to maximize collections, reduce denials, and improve your healthcare organization's profitability.
+              Partner with our revenue cycle experts to maximize collections, reduce denials, and improve your healthcare organization's profitability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Get RCM Quote
+                Get Quote
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300">
-                Schedule RCM Consultation
+                Schedule Consultation
               </button>
             </div>
           </div>

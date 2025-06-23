@@ -74,11 +74,11 @@ const ProvenResults = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-            RCM Results That
+            Revenue Cycle Results That
             <span className="text-accent-green"> Maximize Revenue</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Transform your healthcare revenue cycle with proven results from our comprehensive RCM services and technology-driven approach.
+            Transform your healthcare revenue cycle with proven results from our comprehensive services and technology-driven approach.
           </p>
         </motion.div>
 
@@ -116,17 +116,17 @@ const ProvenResults = () => {
         >
           <div className="bg-gradient-to-r from-accent-green/10 to-blue-500/10 rounded-2xl p-8 border border-accent-green/20">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Optimize Your RCM?
+              Ready to Optimize Your Revenue Cycle?
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Let our RCM experts help you reduce denials, accelerate collections, and maximize your healthcare organization's revenue.
+              Let our revenue cycle experts help you reduce denials, accelerate collections, and maximize your healthcare organization's revenue.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
-                Get RCM Assessment
+                Get Assessment
               </button>
               <button className="border border-white text-white hover:bg-white hover:text-primary-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
-                Schedule RCM Demo
+                Schedule Demo
               </button>
             </div>
           </div>

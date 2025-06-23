@@ -16,7 +16,7 @@ const Header = () => {
 
   const navItems = [
     {
-      label: 'RCM Services',
+      label: 'Services',
       hasDropdown: true,
       items: ['Claims Processing', 'Denial Management', 'Payment Posting', 'Multi-Specialty Billing']
     },
@@ -28,7 +28,7 @@ const Header = () => {
     {
       label: 'Resources',
       hasDropdown: true,
-      items: ['RCM Blog', 'Case Studies', 'Webinars', 'Healthcare Insights']
+      items: ['Blog', 'Case Studies', 'Webinars', 'Healthcare Insights']
     },
     { label: 'Pricing', hasDropdown: false },
     { label: 'About', hasDropdown: false }
@@ -84,7 +84,7 @@ const Header = () => {
               <span className="text-sm">EN</span>
             </div>
             <button className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-2 rounded-full font-medium transition-colors duration-200">
-              Get RCM Quote
+              Get Quote
             </button>
           </div>
 
@@ -125,7 +125,7 @@ const Header = () => {
             ))}
             <div className="px-4 py-4 border-t border-gray-600 mt-4">
               <button className="w-full bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-medium transition-colors duration-200">
-                Get RCM Quote
+                Get Quote
               </button>
             </div>
           </motion.div>

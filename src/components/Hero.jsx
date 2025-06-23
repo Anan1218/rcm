@@ -43,7 +43,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Complete RCM Solutions to
+            Complete Revenue Cycle Solutions to
             <br />
             <span className="relative">
               <motion.span
@@ -75,13 +75,13 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <button className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
-              <span>Get RCM Quote</span>
+              <span>Get Quote</span>
               <FaArrowRight className="text-sm" />
             </button>
             
             <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 flex items-center space-x-2">
               <FaPlay className="text-sm" />
-              <span>See RCM Demo</span>
+              <span>See Demo</span>
             </button>
           </motion.div>
 
@@ -97,7 +97,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-              <span>End-to-End RCM</span>
+              <span>End-to-End Solutions</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-accent-green rounded-full"></div>
