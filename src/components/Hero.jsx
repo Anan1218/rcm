@@ -38,7 +38,7 @@ const Hero = () => {
           className="max-w-4xl mx-auto"
         >
           <motion.h1 
-            className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight"
+            className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -60,7 +60,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p
-            className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg sm:text-xl lg:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -74,12 +74,12 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
+            <button className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
               <span>Get RCM Quote</span>
               <FaArrowRight className="text-sm" />
             </button>
             
-            <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 flex items-center space-x-2">
+            <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 flex items-center space-x-2">
               <FaPlay className="text-sm" />
               <span>See RCM Demo</span>
             </button>
