@@ -12,45 +12,22 @@ import {
 
 const Footer = () => {
   const footerLinks = {
-    'RCM Services': [
+    'Services': [
       'Claims Processing',
       'Denial Management',
       'Payment Posting',
-      'Multi-Specialty Billing',
-      'Prior Authorization',
-      'Eligibility Verification'
-    ],
-    'Healthcare Solutions': [
-      'Primary Care',
-      'Specialty Practices',
-      'Surgery Centers',
-      'Multi-Location Groups',
-      'Health Systems',
-      'Enterprise Solutions'
-    ],
-    'Resources': [
-      'RCM Blog',
-      'Case Studies',
-      'Webinars',
-      'White Papers',
-      'ROI Calculator',
-      'Industry Reports'
-    ],
-    'Support': [
-      'RCM Help Center',
-      'Contact RCM Team',
-      'System Status',
-      'Training Center',
-      'Best Practices',
-      'Implementation'
+      'Prior Authorization'
     ],
     'Company': [
-      'About CareRevenue',
+      'About',
+      'Contact',
       'Careers',
-      'Press',
-      'Partners',
-      'Events',
-      'Leadership'
+      'Blog'
+    ],
+    'Support': [
+      'Help Center',
+      'Documentation',
+      'System Status'
     ]
   };
 
@@ -78,7 +55,7 @@ const Footer = () => {
                 CareRevenue
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Complete revenue cycle management solutions for healthcare organizations. Maximize collections, reduce denials, and optimize your organization's profitability with our expert RCM services.
+                Expert revenue cycle management solutions for healthcare organizations.
               </p>
               
               <div className="space-y-3 mb-6">
@@ -113,7 +90,7 @@ const Footer = () => {
             </motion.div>
 
             <div className="lg:col-span-3">
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {Object.entries(footerLinks).map(([category, links], categoryIndex) => (
                   <motion.div
                     key={category}
@@ -143,32 +120,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            viewport={{ once: true }}
-            className="mt-16 pt-8 border-t border-primary-700"
-          >
-            <div className="bg-gradient-to-r from-accent-green/10 to-blue-500/10 rounded-2xl p-8 border border-accent-green/20 mb-8">
-              <div className="text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">
-                  Ready to Optimize Your Revenue Cycle?
-                </h3>
-                <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                  Partner with our RCM experts to maximize collections and streamline your billing operations.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
-                    Get RCM Quote
-                  </button>
-                  <button className="border border-white text-white hover:bg-white hover:text-primary-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
-                    Schedule RCM Consultation
-                  </button>
-                </div>
-              </div>
-            </div>
-
+          <div className="mt-12 pt-8 border-t border-primary-700">
             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
               <div className="mb-4 md:mb-0">
                 <p>&copy; 2024 CareRevenue. All rights reserved.</p>
@@ -181,17 +133,11 @@ const Footer = () => {
                   Terms of Service
                 </a>
                 <a href="#" className="hover:text-accent-green transition-colors duration-200">
-                  HIPAA Compliance
-                </a>
-                <a href="#" className="hover:text-accent-green transition-colors duration-200">
                   Security
-                </a>
-                <a href="#" className="hover:text-accent-green transition-colors duration-200">
-                  Sitemap
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </footer>
