@@ -1,0 +1,170 @@
+import { motion } from 'framer-motion';
+import { 
+  FaFileInvoiceDollar, 
+  FaCreditCard, 
+  FaChartLine, 
+  FaClipboardCheck, 
+  FaUserMd, 
+  FaShieldAlt,
+  FaPhoneAlt,
+  FaCogs,
+  FaCalendarCheck,
+  FaHeadset,
+  FaSearch,
+  FaMoneyBillWave
+} from 'react-icons/fa';
+
+const Features = () => {
+  const features = [
+    {
+      icon: FaClipboardCheck,
+      title: 'Insurance Eligibility & Benefits Verification',
+      description: 'Real-time verification of patient insurance coverage and benefits before appointments to provide accurate treatment estimates.',
+      gradient: 'from-blue-500 to-cyan-500'
+    },
+    {
+      icon: FaFileInvoiceDollar,
+      title: 'Insurance Claims Billing',
+      description: 'Daily electronic or paper claim submission with advanced scrubbing technology to minimize rejections and maximize reimbursements.',
+      gradient: 'from-accent-green to-emerald-500'
+    },
+    {
+      icon: FaSearch,
+      title: 'Receivables & Denial Management',
+      description: 'Proactive follow-ups every 30 days to track claim status, resolve denials, and accelerate payment collection.',
+      gradient: 'from-purple-500 to-pink-500'
+    },
+    {
+      icon: FaMoneyBillWave,
+      title: 'Payment Posting',
+      description: 'Systematic and accurate posting of insurance payments with automated ERA processing and reconciliation.',
+      gradient: 'from-orange-500 to-red-500'
+    },
+    {
+      icon: FaUserMd,
+      title: 'Medical Billing for Dental',
+      description: 'Maximize revenue with medical insurance reimbursements for covered dental procedures and treatments.',
+      gradient: 'from-teal-500 to-blue-500'
+    },
+    {
+      icon: FaChartLine,
+      title: 'RCM Analytics & Reporting',
+      description: 'Comprehensive reporting on A/R aging, denial trends, collection rates, and key performance indicators.',
+      gradient: 'from-indigo-500 to-purple-500'
+    },
+    {
+      icon: FaPhoneAlt,
+      title: 'Patient Collections',
+      description: 'Professional patient communication for outstanding balances with automated reminders and payment plans.',
+      gradient: 'from-cyan-500 to-blue-500'
+    },
+    {
+      icon: FaCogs,
+      title: 'Workflow Automation',
+      description: 'Automated RCM workflows to reduce manual tasks, improve efficiency, and minimize human errors.',
+      gradient: 'from-green-500 to-teal-500'
+    },
+    {
+      icon: FaCalendarCheck,
+      title: 'Prior Authorization Management',
+      description: 'Streamlined prior authorization process to ensure treatment approvals and reduce claim delays.',
+      gradient: 'from-yellow-500 to-orange-500'
+    },
+    {
+      icon: FaHeadset,
+      title: 'Dedicated RCM Support',
+      description: 'Expert RCM specialists providing ongoing support, training, and optimization recommendations.',
+      gradient: 'from-pink-500 to-rose-500'
+    },
+    {
+      icon: FaCreditCard,
+      title: 'Patient Payment Solutions',
+      description: 'Multiple payment options including online payments, payment plans, and integrated card processing.',
+      gradient: 'from-emerald-500 to-green-500'
+    },
+    {
+      icon: FaShieldAlt,
+      title: 'Compliance & Security',
+      description: 'HIPAA-compliant RCM processes with secure data handling and audit trails for complete peace of mind.',
+      gradient: 'from-violet-500 to-purple-500'
+    }
+  ];
+
+  return (
+    <section className="py-20 bg-primary-900 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-800/30 to-transparent"></div>
+      
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+            Complete RCM Services
+            <span className="text-accent-green"> End-to-End Solutions</span>
+          </h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            From eligibility verification to payment posting, our comprehensive RCM services optimize every aspect of your revenue cycle.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {features.map((feature, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              viewport={{ once: true }}
+              className="group"
+            >
+              <div className="bg-gradient-to-br from-primary-700/50 to-primary-800/50 rounded-2xl p-6 h-full border border-primary-600 hover:border-accent-green/50 transition-all duration-300 hover:transform hover:scale-105 backdrop-blur-sm">
+                <div className={`w-14 h-14 rounded-xl bg-gradient-to-r ${feature.gradient} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                  <feature.icon className="text-white text-2xl" />
+                </div>
+                
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  {feature.title}
+                </h3>
+                
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  {feature.description}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center mt-16"
+        >
+          <div className="bg-gradient-to-r from-accent-green/10 to-blue-500/10 rounded-3xl p-8 lg:p-12 border border-accent-green/20">
+            <h3 className="text-3xl font-bold text-white mb-4">
+              Ready to Optimize Your Revenue Cycle?
+            </h3>
+            <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
+              Partner with our RCM experts to maximize collections, reduce denials, and improve your practice profitability.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                Get RCM Quote
+              </button>
+              <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300">
+                Schedule RCM Consultation
+              </button>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Features;
