@@ -13,9 +13,6 @@ WORKDIR /app
 ENV NODE_ENV="production"
 
 
-# Throw-away build stage to reduce size of final image
-FROM base AS build
-
 # Install packages needed to build node modules
 RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential node-gyp pkg-config python-is-python3
@@ -30,19 +27,6 @@ COPY . .
 # Build application
 RUN npm run build
 
-# Remove development dependencies
-RUN npm prune --omit=dev
-
-
-# Final stage for app image
-FROM nginx
-
-# Copy custom nginx config
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-# Copy built application
-COPY --from=build /app/dist /usr/share/nginx/html
-
 # Start the server by default, this can be overwritten at runtime
-EXPOSE 80
-CMD [ "/usr/sbin/nginx", "-g", "daemon off;" ]
+EXPOSE 8080
+CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "8080"]
