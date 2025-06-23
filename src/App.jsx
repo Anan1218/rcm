@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProvenResults from './components/ProvenResults';
-import Testimonials from './components/Testimonials';
+// import Testimonials from './components/Testimonials';
 import Features from './components/Features';
 import CustomerLogos from './components/CustomerLogos';
 import Certifications from './components/Certifications';
@@ -16,7 +16,7 @@ function App() {
       <ProvenResults />
       <CustomerLogos />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Certifications />
       <Footer />
     </div>
