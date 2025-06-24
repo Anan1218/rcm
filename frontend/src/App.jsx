@@ -5,6 +5,7 @@ import ProvenResults from './components/ProvenResults';
 // import Testimonials from './components/Testimonials';
 import Features from './components/Features';
 // import CustomerLogos from './components/CustomerLogos';
+import SwitchingProcess from './components/SwitchingProcess';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <ProvenResults />
       {/* <CustomerLogos /> */}
       <Features />
+      <SwitchingProcess />
       {/* <Testimonials /> */}
       <Certifications />
       <Footer />
