@@ -62,8 +62,8 @@ const ProvenResults = () => {
   ];
 
   return (
-    <section className="py-20 bg-primary-800 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary-900/50 to-transparent"></div>
+    <section className="py-20 bg-white relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-50/80 to-transparent"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -73,11 +73,11 @@ const ProvenResults = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Revenue Cycle Results That
             <span className="text-accent-green"> Maximize Revenue</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Transform your healthcare revenue cycle with proven results from our comprehensive services and technology-driven approach.
           </p>
         </motion.div>
@@ -92,14 +92,14 @@ const ProvenResults = () => {
               viewport={{ once: true }}
               className="text-center group"
             >
-              <div className="bg-gradient-to-br from-primary-700 to-primary-900 rounded-2xl p-8 h-full border border-primary-600 hover:border-accent-green/50 transition-all duration-300 hover:transform hover:scale-105">
+              <div className="bg-white rounded-2xl p-8 h-full border border-gray-200 hover:border-accent-green/50 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <div className="text-5xl sm:text-6xl font-bold text-accent-green mb-4">
                   <CountUpAnimation end={stat.number} suffix={stat.suffix} prefix={stat.prefix} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {stat.label}
                 </h3>
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed">
                   {stat.description}
                 </p>
               </div>
@@ -115,17 +115,17 @@ const ProvenResults = () => {
           className="text-center mt-16"
         >
           <div className="bg-gradient-to-r from-accent-green/10 to-blue-500/10 rounded-2xl p-8 border border-accent-green/20">
-            <h3 className="text-2xl font-bold text-white mb-4">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Ready to Optimize Your Revenue Cycle?
             </h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
               Let our revenue cycle experts help you reduce denials, accelerate collections, and maximize your healthcare organization's revenue.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
                 Get Assessment
               </button>
-              <button className="border border-white text-white hover:bg-white hover:text-primary-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
+              <button className="border border-gray-300 text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
                 Schedule Demo
               </button>
             </div>

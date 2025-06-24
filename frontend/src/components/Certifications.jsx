@@ -61,7 +61,7 @@ const Certifications = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary-900 to-primary-800">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -70,11 +70,11 @@ const Certifications = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Security & Recognition
             <span className="text-accent-green"> You Can Trust</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Our commitment to security and excellence is recognized by industry leaders and customers worldwide.
           </p>
         </motion.div>
@@ -86,7 +86,7 @@ const Certifications = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-white mb-8 text-center lg:text-left">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center lg:text-left">
               Security Certifications
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -97,15 +97,15 @@ const Certifications = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-gradient-to-br from-primary-700/50 to-primary-800/50 rounded-2xl p-6 border border-primary-600 hover:border-accent-green/50 transition-all duration-300 group"
+                  className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-accent-green/50 transition-all duration-300 group shadow-lg hover:shadow-xl"
                 >
                   <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${cert.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                     <cert.icon className="text-white text-xl" />
                   </div>
-                  <h4 className="text-lg font-semibold text-white mb-2">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">
                     {cert.title}
                   </h4>
-                  <p className="text-gray-400 text-sm mb-3">
+                  <p className="text-gray-600 text-sm mb-3">
                     {cert.description}
                   </p>
                   <span className="inline-block bg-accent-green/20 text-accent-green px-3 py-1 rounded-full text-xs font-medium">
@@ -122,7 +122,7 @@ const Certifications = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-white mb-8 text-center lg:text-left">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center lg:text-left">
               Customer Reviews & Ratings
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -133,9 +133,9 @@ const Certifications = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-gradient-to-br from-primary-700/50 to-primary-800/50 rounded-2xl p-6 border border-primary-600 hover:border-accent-green/50 transition-all duration-300 text-center group"
+                  className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-accent-green/50 transition-all duration-300 text-center group shadow-lg hover:shadow-xl"
                 >
-                  <div className="text-2xl font-bold text-white mb-2">
+                  <div className="text-2xl font-bold text-gray-900 mb-2">
                     {rating.platform}
                   </div>
                   <div className="flex justify-center items-center mb-2">
@@ -155,7 +155,7 @@ const Certifications = () => {
                       ))}
                     </div>
                   </div>
-                  <p className="text-gray-400 text-sm mb-3">
+                  <p className="text-gray-600 text-sm mb-3">
                     Based on {rating.reviews} reviews
                   </p>
                   <span className="inline-block bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-medium">
@@ -175,17 +175,17 @@ const Certifications = () => {
           className="text-center mt-16"
         >
           <div className="bg-gradient-to-r from-accent-green/10 to-blue-500/10 rounded-3xl p-8 border border-accent-green/20">
-            <h3 className="text-2xl font-bold text-white mb-4">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Join the Most Trusted Platform
             </h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
               Experience enterprise-grade security and award-winning support with CareStack.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
                 Get Started Securely
               </button>
-              <button className="border border-white text-white hover:bg-white hover:text-primary-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
+              <button className="border border-gray-300 text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
                 Learn About Security
               </button>
             </div>
