@@ -40,7 +40,7 @@ const SwitchingProcess = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Switching to <span className="text-accent-green">CareRevenue</span> is Easy
+            Switching to <span className="text-accent-green">RevyHealth</span> is Easy
           </h2>
         </motion.div>
 

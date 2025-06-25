@@ -47,7 +47,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16 lg:h-20">
           <div className="flex items-center">
             <div className="text-2xl lg:text-3xl font-bold text-white">
-              CareRevenue
+              RevyHealth
             </div>
           </div>
 

@@ -52,7 +52,7 @@ const Footer = () => {
               className="lg:col-span-1"
             >
               <div className="text-3xl font-bold text-white mb-4">
-                CareRevenue
+                RevyHealth
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Expert revenue cycle management solutions for healthcare organizations.
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center text-gray-400">
                   <FaEnvelope className="mr-3 text-accent-green" />
-                  <span>rcm@carerevenue.com</span>
+                  <span>info@revyhealth.org</span>
                 </div>
                 <div className="flex items-center text-gray-400">
                   <FaMapMarkerAlt className="mr-3 text-accent-green" />
@@ -123,7 +123,7 @@ const Footer = () => {
           <div className="mt-12 pt-8 border-t border-primary-700">
             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
               <div className="mb-4 md:mb-0">
-                <p>&copy; 2024 CareRevenue. All rights reserved.</p>
+                <p>&copy; 2024 RevyHealth. All rights reserved.</p>
               </div>
               <div className="flex flex-wrap gap-6">
                 <a href="#" className="hover:text-accent-green transition-colors duration-200">
