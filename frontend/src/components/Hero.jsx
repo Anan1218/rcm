@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaPlay, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0);
@@ -69,20 +69,20 @@ const Hero = () => {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+            className="flex justify-center items-center mb-12"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <button className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
+            <a 
+              href="https://calendly.com/revyhealth" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2"
+            >
               <span>Get Quote</span>
               <FaArrowRight className="text-sm" />
-            </button>
-            
-            <button className="border-2 border-white text-white hover:bg-white hover:text-primary-900 px-6 py-3 rounded-full font-semibold text-base transition-all duration-300 flex items-center space-x-2">
-              <FaPlay className="text-sm" />
-              <span>See Demo</span>
-            </button>
+            </a>
           </motion.div>
 
           <motion.div

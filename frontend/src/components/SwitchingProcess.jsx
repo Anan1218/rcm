@@ -114,9 +114,14 @@ const SwitchingProcess = () => {
           viewport={{ once: true }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-16"
         >
-          <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Book Free Demo
-          </button>
+          <a 
+            href="https://calendly.com/revyhealth" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Get Quote
+          </a>
           <button className="border-2 border-gray-300 text-gray-700 hover:border-accent-green hover:text-accent-green px-8 py-3 rounded-lg font-semibold transition-all duration-300">
             More About Onboarding
           </button>

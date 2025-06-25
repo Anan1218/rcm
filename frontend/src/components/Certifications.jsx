@@ -182,9 +182,14 @@ const Certifications = () => {
               Experience enterprise-grade security and award-winning support with RevyHealth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
-                Get Started Securely
-              </button>
+              <a 
+                href="https://calendly.com/revyhealth" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                Get Quote
+              </a>
               <button className="border border-gray-300 text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
                 Learn About Security
               </button>

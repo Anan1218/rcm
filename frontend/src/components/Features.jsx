@@ -129,9 +129,14 @@ const Features = () => {
               Partner with our revenue cycle experts to maximize collections, reduce denials, and improve your healthcare organization's profitability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a 
+                href="https://calendly.com/revyhealth" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-accent-green hover:bg-accent-green-light text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
                 Get Quote
-              </button>
+              </a>
               <button className="border-2 border-gray-300 text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300">
                 Schedule Consultation
               </button>

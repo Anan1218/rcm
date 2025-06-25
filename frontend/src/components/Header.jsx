@@ -83,9 +83,14 @@ const Header = () => {
               <FaGlobe className="text-sm" />
               <span className="text-sm">EN</span>
             </div>
-            <button className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-2 rounded-full font-medium transition-colors duration-200">
+            <a 
+              href="https://calendly.com/revyhealth" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-accent-green hover:bg-accent-green-light text-white px-6 py-2 rounded-full font-medium transition-colors duration-200"
+            >
               Get Quote
-            </button>
+            </a>
           </div>
 
           <button
@@ -124,9 +129,14 @@ const Header = () => {
               </div>
             ))}
             <div className="px-4 py-4 border-t border-gray-600 mt-4">
-              <button className="w-full bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-medium transition-colors duration-200">
+              <a 
+                href="https://calendly.com/revyhealth" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full bg-accent-green hover:bg-accent-green-light text-white px-6 py-3 rounded-full font-medium transition-colors duration-200 text-center block"
+              >
                 Get Quote
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
